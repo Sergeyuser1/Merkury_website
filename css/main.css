@@ -37,6 +37,8 @@ a {
 }
 .item_nav {
   padding: 16px 40px;
+  border: transparent solid 2px;
+  border-radius: 28px;
 }
 .nav_point {
   /* padding: 16px 40px; */
@@ -64,6 +66,7 @@ a {
   color: white;
   box-sizing: content-box;
   margin-bottom: 10px;
+  text-align: center;
 }
 .title_header p {
   font-size: 36px;
@@ -101,9 +104,92 @@ a {
   align-items: flex-end;
 }
 .card {
-  border: black solid 1px;
   width: 470px;
+  height: 500px;
+  text-align: center;
+  text-justify: distribute-all-lines;
+}
+.card img {
+  padding-top: 120px;
 }
 .card h3 {
   font-size: 24px;
+  padding-top: 60px;
+}
+.card p {
+  padding-top: 30px;
+  max-width: 360px;
+  text-align: center;
+  margin: 0 auto 55px;
+}
+.card a {
+  color: black;
+  padding: 15px 85px;
+  border: gray solid 1px;
+  border-radius: 30px;
+}
+/* ALLYOU */
+.AllYou {
+}
+.AllYou .container {
+  display: flex;
+  justify-content: center;
+  height: 930px;
+  align-items: center;
+}
+.text_block {
+  max-width: 720px;
+}
+.title_header {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 60px;
+  color: #0e1a35;
+  margin-bottom: 60px;
+}
+.AllYou .txt {
+  color: gray;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.blueList {
+}
+.blueLis_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.blueLis_container img {
+  width: 25px;
+  height: 25px;
+}
+.blueLis_container p {
+  color: #5584ff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 16px;
+}
+.img_block {
+  max-width: 500px;
+}
+
+/* D&D */
+.DaD {
+  background-image: url("../img/D&D/DaDback.jpg");
+}
+.DaD .container {
+  height: 757px;
+  display: flex;
+}
+.picture {
+}
+.text_block {
+}
+.title_DaD {
+}
+.DaDtxt {
 }
