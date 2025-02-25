@@ -10,13 +10,19 @@ a {
   text-decoration: none;
   color: white;
 }
+body {
+  max-width: 1920px;
+}
+.container {
+  /* max-width: 1700px; */
+}
 /*header*/
 .header .container {
   background-image: url(../img/Header/background.jpg);
   background-repeat: no-repeat;
   padding-top: 65px;
-  background-size: cover;
-  height: 1100px;
+  background-size: contain;
+  /* max-height: 1100px; */
 }
 
 .header_row {
@@ -132,9 +138,10 @@ a {
 .AllYou {
 }
 .AllYou .container {
+  margin-inline: auto;
   display: flex;
-  justify-content: center;
-  height: 930px;
+  justify-content: flex-end;
+  min-height: 930px;
   align-items: center;
 }
 .text_block {
@@ -174,16 +181,30 @@ a {
   margin-left: 16px;
 }
 .img_block {
-  max-width: 500px;
+  overflow: hidden;
+  width: 1000px;
+  height: 650px;
+  background-image: url("../img/AllYou/gadjets.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gadjets {
+  object-fit: cover;
 }
 
 /* D&D */
 .DaD {
-  background-image: url("../img/D&D/DaDback.jpg");
 }
 .DaD .container {
-  height: 757px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 760px;
+  width: 1920px;
+  background-image: url("../img/D&D/DaDback.jpg");
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 .picture {
 }
