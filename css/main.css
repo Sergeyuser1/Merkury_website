@@ -89,7 +89,7 @@ body {
 .started_button a {
   font-size: 18px;
   font-weight: 600;
-  padding: 18px 60px;
+  padding: 15px 60px;
   background-color: #5584ff;
   border-radius: 25px;
   margin-bottom: 85px;
@@ -199,18 +199,216 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 760px;
-  width: 1920px;
+  max-width: 1920px;
   background-image: url("../img/D&D/DaDback.jpg");
   /* background-size: contain; */
   background-repeat: no-repeat;
   object-fit: cover;
 }
 .picture {
+  max-width: 1000px;
+  padding-right: 70px;
+}
+.picture img {
+  max-width: 930px;
 }
 .text_block {
+  max-width: 720px;
+  color: #8492af;
+  padding-left: 70px;
+  text-align: left;
+  font-family: "Roboto";
 }
 .title_DaD {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 60px;
 }
 .DaDtxt {
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Powerfull */
+.powerfull {
+}
+.powerfull .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f6f7fa;
+  box-shadow: 0px 20px 20px 13px #f6f7fa;
+  font-family: "Roboto";
+}
+.powerfull_title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+}
+.powerfull_txt {
+  margin: 60px auto 0;
+  color: #8492af;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 950px;
+  text-align: center;
+}
+.powerfull_pic {
+  margin-inline: auto;
+  margin-top: 85px;
+  max-width: 1390px;
+  max-height: 681px;
+  background-size: 100% 100%;
+}
+.powerfull_img {
+}
+
+/* check */
+li {
+  list-style-type: none;
+}
+.check .container {
+  max-height: 1060px;
+  font-family: "Roboto";
+}
+.check_title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+}
+.row_cards_price {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  column-gap: 140px;
+}
+.cards_item {
+  border: black 1px solid;
+  height: 425px;
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  box-shadow: 0 0 15px 0px rgb(134, 124, 124);
+  color: #8492af;
+  font-size: 18px;
+  font-weight: 400;
+  font-stretch: 250%;
+}
+.card_title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.price {
+  margin-bottom: 60px;
+  font-size: 24px;
+}
+.dollar {
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+}
+.number {
+  font-weight: 600;
+  font-size: 72px;
+  color: black;
+}
+
+.grid_ {
+  display: grid;
+  grid-template-columns: 28px 215px;
+  justify-content: center;
+  row-gap: 3px;
+}
+.check_mark {
+  background: url(../img/Check/checkmark.png) no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.cross {
+  background: url(../img/Check/cross.png) no-repeat;
+  width: 25px;
+  height: 25px;
+}
+
+.check_txt {
+  padding-top: 100px;
+  max-width: 885px;
+  text-align: center;
+  margin-inline: auto;
+  color: #8492af;
+  font-size: 18px;
+  font-weight: 400;
+}
+.join {
+  width: 200px;
+  height: 50px;
+  border-radius: 24px;
+  display: flex;
+  background-color: #5584ff;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 18px;
+
+  margin: 60px 32px 100px;
+}
+.line_before_after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.line_gray {
+  width: 220px;
+  border: #dadee7 solid 1px;
+  padding: 0 30px;
+}
+/* footer */
+footer {
+  background-color: #0e1a35;
+  color: #8492af;
+}
+footer .container {
+  max-width: 1500px;
+  max-height: 150px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_us {
+  display: flex;
+  align-items: center;
+}
+.nav_point {
+  padding: 65px 10px;
+  color: #8492af;
+}
+.nav_point p {
+  color: #8492af;
+  border: transparent solid 1px;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+.nav_point p:hover {
+  color: #8492af;
+  border: #8492af solid 1px;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+i {
+  height: 20px;
+  padding: 0 5px;
 }
