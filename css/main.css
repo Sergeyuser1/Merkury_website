@@ -436,3 +436,79 @@ i {
     padding-inline: 10px 0px;
   }
 }
+@media (max-width: 1440px) {
+  .row_cards_price {
+    column-gap: 30px;
+  }
+}
+@media (max-width: 1170px) {
+  .header .container {
+    height: 800px;
+    padding-top: 15px;
+  }
+
+  .header_row {
+    margin-bottom: 15px;
+  }
+  .middle_img {
+    width: 700px;
+  }
+  .row_cards {
+    column-gap: 5px;
+  }
+  .cards_item {
+    width: 270px;
+    height: 340px;
+  }
+  .card_title {
+    margin-bottom: 30px;
+  }
+  .price {
+    margin-bottom: 30px;
+  }
+  .title_header p {
+    margin-bottom: 0;
+  }
+  .navigation {
+    column-gap: 0;
+  }
+  .title_DaD {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .item_nav {
+    padding: 5px 10px;
+  }
+  .item_nav:hover {
+    padding: 5px 10px;
+  }
+  .title_header h2 {
+    font-size: 40px;
+  }
+  .title_header p {
+    font-size: 21px;
+    text-align: center;
+  }
+}
+@media (max-width: 940px) {
+  .header .container {
+    height: 560px;
+  }
+  .middle_img {
+    width: 590px;
+  }
+  .container_img_block {
+    display: none;
+  }
+  .AllYou {
+    height: 500px;
+    padding-top: 15px;
+  }
+  .AllYou .container {
+    display: block;
+  }
+  .text_block {
+    margin-inline: auto;
+  }
+  DAD
+}
