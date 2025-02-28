@@ -34,6 +34,7 @@ body {
 }
 .logo {
   max-width: 240px;
+  padding-left: 20px;
 }
 .navigation {
   display: flex;
@@ -98,6 +99,12 @@ body {
   margin: 75px auto 0;
   max-width: 882px;
 }
+.middle_img img {
+  padding-inline: 30px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
 /* section_cards */
 .section_cards {
   height: 630px;
@@ -146,6 +153,7 @@ body {
 }
 .text_block {
   max-width: 720px;
+  padding-left: 30px;
 }
 .title_header {
   font-family: "Roboto";
@@ -180,44 +188,44 @@ body {
   font-size: 22px;
   margin-left: 16px;
 }
-.img_block {
-  overflow: hidden;
-  width: 1000px;
-  height: 650px;
-  background-image: url("../img/AllYou/gadjets.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.container_img_block {
+  max-width: 1000px;
+  max-height: 650px;
 }
-.gadjets {
-  object-fit: cover;
+.img_block img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* D&D */
 .DaD {
+  max-width: 760px;
+  max-width: 1920px;
+  background-image: url("../img/D&D/DaDback.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 .DaD .container {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 760px;
-  max-width: 1920px;
-  background-image: url("../img/D&D/DaDback.jpg");
-  /* background-size: contain; */
-  background-repeat: no-repeat;
-  object-fit: cover;
 }
 .picture {
   max-width: 1000px;
   padding-right: 70px;
 }
 .picture img {
-  max-width: 930px;
+  max-width: 100%;
+  padding-inline: 30px;
+  height: auto;
 }
-.text_block {
+.text_blockDaD {
   max-width: 720px;
+  min-width: 580px;
   color: #8492af;
-  padding-left: 70px;
+
+  padding: 20px 20px 20px 70px;
   text-align: left;
   font-family: "Roboto";
 }
@@ -265,6 +273,9 @@ body {
   background-size: 100% 100%;
 }
 .powerfull_img {
+  max-width: 100%;
+  height: auto;
+  padding-inline: 30px;
 }
 
 /* check */
@@ -387,6 +398,7 @@ footer .container {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  padding-inline: 15px;
 }
 .about_us {
   display: flex;
@@ -411,4 +423,16 @@ footer .container {
 i {
   height: 20px;
   padding: 0 5px;
+}
+
+@media (max-width: 1754px) {
+  .text_blockDaD {
+    padding-inline: 20px;
+  }
+  .picture {
+    padding-inline: 10px 0px;
+  }
+  .picture img {
+    padding-inline: 10px 0px;
+  }
 }
